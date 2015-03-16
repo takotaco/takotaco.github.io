@@ -6,3 +6,15 @@ a {
 a:hover {
 	color: #B82A2D;
 }
+
+.message {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	text-align: center;
+}
