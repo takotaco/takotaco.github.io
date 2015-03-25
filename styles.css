@@ -35,8 +35,7 @@ h3 {
 }
 
 .card:first-of-type {
-/*	margin-top: 85px; */
-	margin-top: 0px; 
+	margin-top: 25px;
 }
 
 a {
