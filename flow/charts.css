@@ -1,0 +1,449 @@
+/*can use scss!!!! or less*/
+/* css for the site, should be used for every page since we want the site to have
+* a consistant style
+* part of the view in our model/view/controller setup
+*/
+
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+html {
+	height:100%;
+}
+
+body {
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+	margin:0px;
+	padding:0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:12px;
+	height:100%;
+}
+
+/*HEADER*/
+#header {
+	font-size: 30px;
+	font-style: normal;
+	/*height:25%;*/
+}
+
+#loginBar {
+	float:right;
+	text-align: right;
+	font-size:15px;
+	width:100%;
+	padding:5px;
+}
+
+#logoBar {
+	width:100%;
+}
+
+#logoImg {
+	padding:10px;
+}
+
+#tabs {
+	float:left;
+	font-size:20px;
+	width:100%;
+	padding:10px;
+	padding-right:0px;
+	padding-left:0px;
+}
+
+.tab {
+	float:left;
+	padding-right:15px;
+	padding-left:15px;
+}
+
+/*CONTENT*/
+
+#notFooter {
+	height:100%;
+}
+
+body > #notFooter {
+	height:auto;
+	min-height: 100%;
+}
+
+#content {
+	clear:both;
+	font-size:13px;
+	padding-top: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom:25px;
+}
+
+/*FOOTER*/
+
+#footer {
+	clear:both;
+	width: 100%;
+	background-color: black;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align: right;
+	position:relative;
+	height:25px;
+	margin-top:-35px;
+}
+
+.links {
+	font-size: 20px;
+}
+
+#about {
+	padding-right: 25px;
+}
+
+#contact {
+	padding-right: 25px;
+}
+
+
+
+
+
+/*OTHER STUFF THAT"S UNORGANIZED. :(*/
+
+a, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.blackLink a {
+  color:black;
+}
+
+textarea {
+	display: inline;
+	background-color: #ffffff;
+	color:#000000; 
+	padding:5px;
+	font-size: 15px;
+	border: 1px solid black;
+	outline:none;
+}
+
+h2 {
+	font-size:22px;
+}
+
+h4 {
+	font-size:17px;
+}
+
+p {
+	font-size:13px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+
+.button {
+	font-size: 15px;
+	background-color: black;
+	color:white;
+	display: inline;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+#editTitle {
+	position: relative;
+}
+
+#titleInput {
+	height:20px;
+	max-width:200px;
+}
+
+#updateTitle {
+	position: absolute;
+	top:5px;
+	left:220px;
+}
+
+.blackBG {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.clear {
+	clear:both;
+}
+
+
+
+#redirectScreen {
+	z-index: 366;
+	position: absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+body > #redirectScreen {
+	height:auto;
+	min-height:100%;
+}
+
+#boxTitle { 
+	font-size:16px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-style:normal;
+	width:100%;
+	border-bottom: 1px black solid;
+}
+
+#chartTitle {
+	font-size:30px;
+	padding-top:15px;
+	padding-bottom:-3px;
+	padding-left:75px;
+	font-style:bold;
+	border-bottom: 2px black solid;
+}
+
+.panelHeader {
+	color: white;
+	background-color: black;
+	padding:8px;
+	font-size:14px;
+}
+
+#tutHeader {
+	position:relative;
+	top:-15px;
+	left:-15px;
+	width:315px;
+}
+
+#signupHeader {
+	position: relative;
+	top:-15px;
+	left:-15px;
+	width:215px;
+}
+
+.signupInput {
+	margin:5px;
+}
+
+#versionPanel {
+	text-align: center;
+}
+
+#previousVersions {
+	padding:15px;
+}
+
+#tags {
+	float:right;
+	padding-right:25%;
+	padding-top:10%;
+}
+
+.panel {
+	float:left;
+	margin:20px;
+}
+
+#leftPanel {
+	width:300px;
+	margin:0px;
+	margin-right:20px;
+}
+
+#controlPanel, #tutorialPanel {
+	padding:15px;
+	border: 1px solid black;
+	width:300px;
+}
+
+#signupPanel {
+	position: absolute;
+	left:50%;
+	margin-left:-117px;
+	padding:15px;
+	border: 1px solid black;
+	width:200px;
+}
+
+#signupForm {
+	padding-left:25px;
+}
+
+#boxContent, #tutStep {
+	padding:10px;
+}
+
+#boxControls, #tutControls {
+	padding:10px;
+	float:right;
+}
+
+.boxContentObj {
+	padding-top:10px;
+}
+
+#deleteBoxButton {
+	text-align: center;
+	margin-right:10px;
+}
+
+#chartPanel {
+	padding-left:40px;
+}
+
+#detailsPanel {
+	padding:15px;
+	border: 1px solid black;
+}
+
+canvas, #chartEditor, #one, #two, #three {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;	
+} 
+
+#chartInfo {
+	position:relative;
+	padding:5px;
+	font-size:11px;
+}
+
+#authorInfo {
+	position:relative;
+	width:200px;
+	height:25px;
+	text-align:left;
+	padding-bottom:15px;
+}
+
+#authorInput {
+	position: absolute;
+	top:0px;
+	left:70px;
+	max-width:100px;
+	max-height:20px;
+}
+
+#saveChart {
+	position: absolute;
+	top: 5px;
+	left: 190px;
+}
+
+#addBox {
+	position: relative;
+}
+
+#boxText {
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:200px;
+	max-width:200px;
+}
+
+#addBoxButton {
+	position: absolute;
+	top:25px;
+	left:220px;
+}
+
+#cancelAddBox {
+	position: absolute;
+	top: 0px;
+	left: 220px;
+	font-size:10px;	
+	text-align: center;
+}
+
+#rating {
+	position:relative;
+	top:-25px;
+	left:250px;
+	width:100px;
+	height:25px;
+	text-align:right;
+}
+
+#commentsPanel {
+	padding:5px;
+}
+
+#addCommentArea {
+	padding-top:15px;
+	padding-bottom:15px;
+	position: relative;
+}
+
+#newCommentInput {
+	width:97%;
+	height:100px;
+	margin-bottom:15px;
+}
+
+#addNewComment {
+	position: relative;
+	left:100%;
+	margin-left:-65px;
+}
+
+.comment {
+	border-top-width: 1px;
+	border-top-color: #c2c2c2;
+	border-top-style: solid;
+	padding:5px;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size: 11px;
+	width:100%;
+}
+
+#ads {
+	/*float:right;*/
+	position:absolute;
+	top:46px;
+	left:500px;
+	padding:5px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: black;
+}
+
+.ad {
+	width: 200px;
+	border-width: 1px;
+	border-color: #c2c2c2;
+	border-style: solid;
+	padding:5px;
+	margin:5px;
+	font-size: 11px;
+}
+
+#titleInput {
+	height:20px;
+	width:200px;
+}
+
+#tutLink {
+	text-decoration: underline;
+}

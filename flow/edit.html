@@ -1,0 +1,123 @@
+<html>
+<link rel='stylesheet' type='text/css' href='charts.css'>
+<body>
+	<div id="notFooter">
+		<div id="chartTitle">
+			<div id="viewTitle">
+				<span id="titleText">Untitled</span>
+				<span id="editTitleButton"><img src="edit_pen.png" height="15px" width="15px"></img></span>
+			</div>
+			<div id="editTitle">
+				<textarea id="titleInput" value="Untitled"></textarea>
+				<div id="updateTitle" class="button">update</div>
+			</div>
+		</div>
+		<div id="content">
+			<div id="leftPanel" class="panel">
+				<div id="tutorialPanel" class="panel">
+					<div id="tutHeader" class="panelHeader">Tutorial</div>
+					<div id="step0" class="tutStep">
+						<p>Welcome to the tutorial. Let's get started. </p>
+						<p>First let's name this chart.</p>
+						<p>Click on the pen icon next to 'Untitled' above this box.</p>
+						<p>Enter the name of your chosing and click 'update'. This will rename your chart.</p>
+					</div>
+					<div id="step1" class="tutStep">
+						<p>Now let's make a box. </p>
+						<p>Click on the canvas to the right, an input box should appear next to where you clicked.</p>
+						<p>Type in the text you want to appear in the box, and press 'add'.</p>
+						<p>A box will appear on the canvas with that text.</p>
+					</div>
+					<div id="step2" class="tutStep">
+						<p>Now make another box.</p>
+						<p>Again, click on the canvas, input text, and press 'add'</p>
+						<p>Another box will appear on the canvas.</p>
+					</div>
+					<div id="step3" class="tutStep">
+						<p>Now let's move these boxes around.</p>
+						<p>To move a box, hover your mouse over the box. A anchor point should appear in the top left corner of the box.</p>
+						<p>Click on the anchor point, and drag the box to the desired location.</p>
+					</div>
+					<div id="step4" class="tutStep">
+						<p>Now lets connect the boxes with an arrow!</p>
+						<p>To make an arrow, click on the first box and drag your mouse to the second box. An arrow should appear between them.</p>
+					</div>
+					<div id="step5" class="tutStep">
+						<p>Now let's select one of the boxes to add more detailed information.</p>
+						<p>To selecte a box, simply double click on it.</p>
+						<p>The box should now be highlighted in orange.</p>
+					</div>
+					<div id="step6" class="tutStep">
+						<p>Since the box is selected, in the panel below you can add details and references.</p>
+						<p>In 'Details' you can add more information about how to complete the step in this box.</p>
+						<p>In 'References' you can add links, seperated by a comma, to resources you used when researching this information.</p>
+						<p>Neither are required.</p>
+						<p>Either add details and references and hit 'save' in the box below, or click 'next'.</p>
+					</div>
+					<div id="step7" class="tutStep">
+						<p>Great job!</p>
+						<p>That's it for the tutorial. If you have further questions or suggestions for improvement, hit the 'Feedback' button at the bottom of the page and send us an email!</p>
+						<p>Thanks and good luck!</p>
+					</div>
+					<div id="tutControls">
+						<div id="prevStep" class="button">back</div>
+						<div id="nextStep" class="button">next</div>
+					</div>
+				</div>
+				<div id="controlPanel" class="panel">
+					<div id="controlLabel"></div>
+					<div id="splash">
+						<p>Need help? Check out the <span id="tutLink">tutorial</span>.</p>
+					</div>
+					<div id="boxInfo">
+						<div id="boxTitle">	
+							<span id="boxTitleText"></span>
+							<span id="editBoxTitleButton"><img src="edit_pen.png" height="15px" width="15px"></img></span>
+							<div id="editBoxTitle">
+								<textarea id="boxTitleInput"></textarea>
+								<div id="updateBoxTitle" class="button">update</div>
+							</div>
+						</div>
+						<div id="boxContent">
+							<div id="details" class="boxContentObj">
+								<h4>Details</h4>
+								<textarea id="detailsInput" value="add more details about this step..."></textarea>
+							</div>
+							<div id="references" class="boxContentObj">
+								<h4>References</h4>
+								<textarea id="referencesInput" value="add links to relevant sources here"></textarea>
+							</div>
+						</div>
+						<div id="boxControls">
+							<div id="deleteBoxButton" class="button">delete</div>
+							<div id="saveBoxButton" class="button">save</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="chartPanel" class="panel">
+				<canvas id="chartEditor" width="350px" height="500px"></canvas>
+				<div id="chartInfo">
+					<!-- in the real thing your name will be auto added because you are logged in whoo-->
+					<div id="authorInfo">
+						created by <textarea id="authorInput" value="your name here"></textarea>
+						<div id="saveChart" class="button">save</div>
+					</div>
+				</div>
+				<div id="addBox">
+					<textarea id="boxText" value="add text here"></textarea>
+					<div id="addBoxButton" class="button">add</div>
+					<!-- need to put cancel/x button on this so can actually close it.... -->
+					<div id="cancelAddBox" class="button">X</div>
+					<!-- also if nothing in this and press enter should not make an empty box -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script src='jquery-1.8.1.js'></script>
+<script src='model.js'></script>
+<script src='view.js'></script>
+<script src='edit.js'></script>
+</html>
