@@ -3,6 +3,12 @@ $(window).load(function () {
 	$('.back').append('<div class="arrow"><</div>');
 	$('.next').html('<div class="arrow">></div>');
 
+	$('.project-content[data-project=flow] img').on('mouseenter', function (event) {
+		$('.project-content[data-project=flow] .link-button a').addClass('hover');
+	}).on('mouseleave', function (event) {
+		$('.project-content[data-project=flow] .link-button a').removeClass('hover');
+	});;
+
 	// set up events
 	$('.project-summary').click(function (event) {
 		var project = $(event.currentTarget).data('project');

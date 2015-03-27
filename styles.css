@@ -18,6 +18,22 @@ h3 {
 	padding-top: 25px;
 }
 
+.header {
+	background: #FEFEFE;
+	text-align: left;
+	padding-top: 30px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	font-style: bold;
+	margin-bottom: 25px;
+}
+
+.name {
+	display: inline-block;
+	font-size: 50px;
+	padding-bottom: 5px;
+}
+
 .page {
 	overflow: hidden;
 	border: 1px solid black;
@@ -32,10 +48,6 @@ h3 {
 	padding-top: 20px;
 	margin-bottom: 25px;
 	text-align: center;
-}
-
-.card:first-of-type {
-	margin-top: 25px;
 }
 
 a {
@@ -77,7 +89,7 @@ a:hover {
 	float: right;
 }
 
-.link-button > a:hover, .open-project-link:hover {
+.link-button > a:hover, .link-button > a.hover, .open-project-link:hover {
 	background: #B82A2D;
 }
 
@@ -173,7 +185,7 @@ a:hover {
 	font-style: bold;
 	font-size: 30px;
 	padding-bottom: 20px;
-	text-decoration: underline;
+	padding-left: 5px;
 }
 
 .project-title {
