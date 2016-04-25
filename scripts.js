@@ -51,4 +51,10 @@ $(window).load(function () {
 			nextPage.show();
 		}
 	});
+
+	$('.menu a').click(function (event) {
+		var selectedLink = $(event.currentTarget);
+		$('.menu a').removeClass('active');
+		selectedLink.addClass('active');
+	});
 });
