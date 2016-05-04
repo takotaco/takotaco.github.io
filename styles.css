@@ -3,8 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 body {
-	/*background: #F9F9F9;*/
-	background: #444444;
+	background: #F9F9F9;
 	font-family: sans-serif;
 	color: #111111;
 }
@@ -13,33 +12,12 @@ p {
 	padding-bottom: 15px;
 }
 
-h3 {
-	width: 100%;
-	font-size: 20px;
-	font-style: bold;
-	padding-top: 25px;
-}
-
-.clearfix {
-	clear: both;
-}
-
-.header {
-	background: #FEFEFE;
-	margin-bottom: 5px;
-	border-bottom: 1px solid #444444;
-}
-
-.header > div {
-	display: inline-block;
-}
-
 .logo {
-	padding: 5px 15px;
+	padding: 25px 15px;
 }
 
 .logo > img {
-	height: 50px;
+	height:150px;
 }
 
 .menu > a {
@@ -47,31 +25,7 @@ h3 {
 	margin-right: 10px;
 	font-size: 25px;
 	font-style: bold;
-	display: inline-block;
-	float: left;
 	margin-bottom: 10px;
-}
-
-.name {
-	display: inline-block;
-	font-size: 50px;
-	padding-bottom: 5px;
-}
-
-.page {
-	overflow: hidden;
-	border: 1px solid black;
-}
-
-.card {
-	overflow: hidden;
-	background: #FEFEFE;
-	padding-bottom: 20px;
-	padding-left: 125px;
-	padding-right: 125px;
-	padding-top: 20px;
-	margin-bottom: 5px;
-	text-align: center;
 }
 
 a {
@@ -89,124 +43,9 @@ a.active {
 	margin-bottom: 8px;
 }
 
-.project-content > .page > .image > .link-button > a {
-	margin-right: 0px;
-	float: right;
-}
-
-.project-content {
-	display: none;
-}
-
-.page {
-	position: relative;
-	text-align: left;
-	padding-left: 5%;
-	padding-right: 5%;
-}
-
-.page > .text {
-	padding-top: 20px;
-	float: left;
-	display: block;
-	min-width:25%;
-	max-width:50%;
-	padding-bottom: 20px;
-	padding-right: 20px;
-}
-
-.page > .image {
-	padding-top: 20px;
-	float: right;
-	padding-bottom: 20px;
-}
-
-.page > .back, .page > .next {
-	position: absolute;
-	height: 100%;
-	opacity: 0.1;
-	width: 50%;
-	color: white;
-	font-size: 50px;
-}
-
-.page > .back {
-	left: 0px;
-	text-align: left;
-}
-
-.page > .next { 
-	left: 50%;
-	text-align: right;
-}
-
-.page .arrow {
-	width: 50px;
-	height: 50px;
-	padding: 10px;
-	position: relative;
-	top: 50%;
-	margin-top: -30px;
-	background-color: black;
-}
-
-.page > .next > .arrow {
-	float: right;
-}
-
-.page > .back:hover, .page > .next:hover {
-	opacity: 0.5;
-}
-
-.project-summary {
-	display: inline-block;
-	padding: 15px;
-}
-
-.project-summary.selected > .project-title {
-	text-decoration: underline;
-}
-
-.project-description {
-	padding: 10px 0px;
-}
-
-.project-image {
-	height: 100px;
-	width: 100px;
-	margin: auto;
-}
-
-.project-summary:hover {
-	cursor: pointer;
-}
-
-.card-title {
-	text-align: left;
-	font-style: bold;
-	font-size: 30px;
-	padding-bottom: 20px;
-	padding-left: 5px;
-}
-
-.project-title {
-	padding-top: 10px;
-	font-size: 20px;
-	font-style: bold;
-}
-
-#about > .avatar {
-	height: 150px;
-	float: right;
-	display: inline-block;
-}
-
-#about > .text {
+.site {
 	text-align: center;
-	padding-top: 25px;
-	display: inline-block;
+	padding-top: 125px;
 }
 
-.links {
-	clear: both;
-}
+
