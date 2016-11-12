@@ -13,17 +13,25 @@ p {
 }
 
 .logo {
-	padding: 25px 15px;
+	padding: 15px 15px;
+	display: inline-block;
+	float: left;
 }
 
 .logo > img {
-	height:150px;
+	height:70px;
+}
+
+.menu {
+	display: inline-block;
+	float: left;
+	padding-top: 55px;
 }
 
 .menu > a {
 	margin-left: 10px;
 	margin-right: 10px;
-	font-size: 25px;
+	font-size: 20px;
 	font-style: bold;
 	margin-bottom: 10px;
 }
@@ -43,9 +51,23 @@ a.active {
 	margin-bottom: 8px;
 }
 
-.site {
+.header {
 	text-align: center;
-	padding-top: 125px;
 }
 
+.site {
+	clear: both;
+	float: left;
+}
+
+.thumbnail {
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+}
+
+.thumbnail > img {
+	height: 300px;
+	width: 300px;
+}
 
