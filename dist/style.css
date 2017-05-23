@@ -1,0 +1,186 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: sans-serif;
+}
+p {
+  padding-bottom: 15px;
+}
+.header {
+  background: #F9F9F9;
+  color: #111111;
+  padding: 15px;
+  min-height: 40px;
+}
+.header .logo {
+  float: left;
+}
+.header .logo img {
+  float: left;
+  height: 40px;
+}
+.header .logo .name {
+  float: left;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.header .menu {
+  float: right;
+  padding-top: 20px;
+}
+.header .menu .link {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  font-style: bold;
+  margin-bottom: 10px;
+  color: #111111;
+}
+.header .menu .link:hover {
+  border-bottom: 2px solid #4FC1B3;
+  margin-bottom: 8px;
+}
+.header .menu .link.selected {
+  border-bottom: 2px solid #B82A2D;
+  margin-bottom: 8px;
+}
+.page-not-found {
+  text-align: center;
+  padding-top: 50px;
+}
+.page-not-found div {
+  padding-top: 10px;
+}
+.page {
+  text-align: left;
+  padding: 15px;
+}
+.image.square {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: #4FC1B3;
+  margin: 5px;
+}
